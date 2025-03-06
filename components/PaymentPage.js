@@ -101,10 +101,10 @@ const PaymentPage = ({ username }) => {
             <Script src="https://checkout.razorpay.com/v1/checkout.js"></Script>
 
             <div className='relative'>
-                <img src="https://c10.patreonusercontent.com/4/patreon-media/p/campaign/4842667/452146dcfeb04f38853368f554aadde1/eyJ3IjoxNjAwLCJ3ZSI6MX0%3D/16.gif?token-time=1733270400&token-hash=QS3sVKJW9q8GeUW9hq0FzQRBwBbeLrtkbsrgrXY8TEQ%3D" alt="" />
+                <img src={currentuser.coverpic} alt="" />
 
                 <div className='absolute -bottom-14 right-[41%] md:right-[45%]'>
-                    <img className='rounded-full border-gray-400 border-2' width={120} height={120} src="https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg" alt="" />
+                    <img className='rounded-full border-gray-400 border-2' width={120} height={120} src={currentuser.profilepic} alt="" />
                 </div>
             </div>
             <div className='info flex justify-center items-center flex-col my-20 gap-2'>
